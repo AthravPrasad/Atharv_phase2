@@ -1,9 +1,9 @@
 # GDB Baby step 1:
-The Challenge Description is:
-Can you figure out what is in the eax register at the end of the main function?
-Put your answer in the picoCTF flag format: picoCTF{n} where n is the contents of the eax register in the decimal number base.
-If the answer was 0x11 your flag would be picoCTF{17}.
-Along with this a code file was provided from which the information was to be extracted.
+The Challenge Description is:                
+Can you figure out what is in the eax register at the end of the main function?              
+Put your answer in the picoCTF flag format: picoCTF{n} where n is the contents of the eax register in the decimal number base.             
+If the answer was 0x11 your flag would be picoCTF{17}.                                     
+Along with this a code file was provided from which the information was to be extracted.                           
 
 ## Solution:
 1) A random file with a code, so i installed IDA and used it decompiler to open the file.
@@ -39,5 +39,5 @@ picoCTF{549698}
 Using IDA Decompiler and Deassembler.
 
 ## Notes:
-While installing IDA administrative permissions like " sudo apt install ....." and " chmod +x /......" were required.
+While installing IDA administrative permissions like " sudo apt install ....." and " chmod +x /......" were required.                      
 (Linux luminarium of pwn.college rocks!")
