@@ -19,7 +19,7 @@ Decrypt the password and use it to decrypt the message. The oracle can decrypt a
 11) The final step involved using the openssl command-line utility to decrypt the secret message file.
 12) The recovered password, daa099, was correctly supplied as the required decryption key, yielding the final flag.
 
-*Flag:* picoCTF{3ss_r0ckl1ng_r39_da099d93}
+*Flag:* picoCTF{su((3ss_r@ck1ng_r3@_da099d93}
 
 ## Concepts Learnt:
 Cracking ciphers.
